@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  /* overflow: scroll; */
+  font-family: Helvetica, Arial, sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #eceff5;
+}
+nav {
+  display: flex;
+  color: white;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #3b5998;
+  height: 44px;
+}
+/* #1877F2 */
+
+.logo{
+    margin-bottom: 16px;
+    width: 60px;
+}
+
+.text{
+    font-size: 16px;
+    color: #90949c;
+}
+
+
+.email {
+    box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: #f5f6f5;
+  border: 1px solid #dddfe2;
+  border-radius: 2px;
+  width: 100%;
+  line-height: 18px;
+  font-size: 14px;
+  padding: 12px;
+}
+.pass {
+    line-height: 18px;
+box-sizing: border-box;
+background-color: #f5f6f5;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  border: 1px solid #dddfe2;
+  border-radius: 2px;
+  height: px;
+  width: 100%;
+  font-size: 14px;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.login {
+  background-color: #1877f2;
+  padding: 0 16px;
+  color: #f5f6f5;
+  border: 0px;
+  border-radius: 3px;
+  font-size: 17px;
+  width: 100%;
+  font-size: 14px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 16px;
+}
+
+.lzv{
+    padding: 38px;
+    padding-bottom: 12px;
+    text-align: center;
+    -webkit-text-size-adjust: none;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.fp{
+    color: #216fdb;
+    font-size: 14  px;
+    text-decoration: none;
+    margin: 14px 0 20px 0;
+}
+
+.language{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 6px;
+}
+.p{
+    border: 1px solid;
+    border-radius: 3px;
+}
+.bu{
+    color: #90949c; 
+}
+.fot{
+    color: #90949c;
+    font-size: 12px;
+}
+.sec{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height:20px ;
+  font-size: 12px;
+  color:#576b95 ;
+}
+.ca{
+margin: 10px 0 0 0 ;
+padding: 4px;
+font-size: 14px;
+color: #576b95;
+cursor: pointer;
+}
+.nn{
+  margin: 10px 0 ;
+  font-size: 14px;
+  color: #576b95;
+  cursor: pointer;
+}
+.hp{
+  margin: 12px 0 36px 0 ;
+  font-size: 14px;
+  color: #576b95;
+  cursor: pointer;
+}
+.wp{
+  border:2px solid red;
+  border-radius: 5px;
+  
+
+}

